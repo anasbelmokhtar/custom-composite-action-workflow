@@ -12,3 +12,4 @@ jobs:
           who-to-greet: 'Anas Belmokhtar'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
+        
